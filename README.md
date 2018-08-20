@@ -16,6 +16,8 @@ or better.
 _All assignment submissions must go through GitHub Classroom, which
 requires a free GitHub [account](https://github.com/)._
 
+Please use your ucf email address and make it visible on you github profile.
+
 ## Meeting Times
 
 _Note: all times are in UCF's Eastern time zone; all dates are implicitly the course semester's year._
@@ -273,6 +275,11 @@ does not work there, it does not work. You will be given a Eustis
 account at the beginning of the semester, and instructions on how to
 access your account can be found on the Assignments section at the
 course's webpage.
+
+Students may work alone on the programming project or with at most one
+other person for a maximum team size of two.  Teams are created on
+GitHub classroom when accepting the assignment.  If there is a need to
+change or dissolve a team, please talk to the instructor about
 
 ## Course Materials
 
