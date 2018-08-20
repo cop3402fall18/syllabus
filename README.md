@@ -1,7 +1,7 @@
 # Systems Software COP-3402
 
-Fall 2018
-
+University of Central Florida<br>
+Fall 2018<br>
 Section 1
 
 Prerequisite(s): CDA 3103C and COP 3502C each with a grade of C (2.0)
@@ -14,7 +14,7 @@ or better.
 [GitHub Classroom](https://classroom.github.com/classrooms/42438301-systems-software-at-ucf)
 
 _All assignment submissions must go through GitHub Classroom, which
-requires a free GitHub account._
+requires a free GitHub [account](https://github.com/)._
 
 ## Meeting Times
 
