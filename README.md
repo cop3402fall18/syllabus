@@ -22,17 +22,19 @@ Please use your ucf email address and make it visible on you github profile.
 
 _Note: all times are in UCF's Eastern time zone; all dates are implicitly the course semester's year._
 
+Building codes can be found here: <https://map.ucf.edu/locations/>
+
 ### Class
 
 MW 7:30PM-8:45PM CB2-O101
 
 ### Recitations
 
-W 2:30PM
+W 2:30PM NSC-108
 
-W 3:30PM
+W 3:30PM NSC-108
 
-W 4:30PM
+W 4:30PM CB1-320
 
 ### Final Exam
 
