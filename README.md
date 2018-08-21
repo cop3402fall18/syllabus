@@ -136,7 +136,7 @@ Compilers and Interpreters
 
 09/10
 
-09/12 _Compiler Assignment Setup with TAs_
+09/12
 
 __Assignment 1 PM/0 Due 09/16 11:59PM__
 
