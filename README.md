@@ -48,7 +48,7 @@ Location is as determined by the University.
 
 [Paul Gazzillo](https://paulgazzillo.com)<br>[paul.gazzillo@ucf.edu](mailto:paul.gazzillo@ucf.edu)<br>HEC-239
 
-Office Hours: MW 4:30PM-5:30PM
+Office Hours: MW 4:30PM-5:30PM or by appointment.
 
 ### GTAs
 
@@ -227,7 +227,7 @@ __Assignment 4 Compiler Due 12/02 11:59PM__
 - 20% Midterm Exam: closed book, closed notes exam given in class
 - 30% Final Exam: closed book, closed notes comprehensive exam given during final exam week. _You must score at least 60% on this exam to pass the course_
 - 50% Programming project
-  - 10% Assignment 1 VM/0
+  - 10% Assignment 1 PM/0
   - 5% Assignment 2 Lexer
   - 5% Assignment 3 Parser/Code Gen
   - 20% Assignment 4 Compiler
@@ -259,7 +259,7 @@ The programming project consists in implementing a compiler for a tiny
 programming language. The compiler must generate code for a virtual
 machine that will run. The project will be divided in four modules:
 
-1. Virtual Machine implementation (VM/0)
+1. Virtual Machine implementation (PM/0)
 2. Lexer
 3. Parser/Code Generation
 4. Compiler
@@ -283,7 +283,7 @@ change or dissolve a team, please talk to the instructor about
 
 ## Course Materials
 
-### Required
+### Recommended
 
 - Compilers: Principles, Techniques, & Tools, Second Edition by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman. Addison Wesley, 2007
 
