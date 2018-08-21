@@ -112,6 +112,12 @@ Introduction, Grading, Setting up Git
 
 08/22
 
+Git tutorials:<br>
+<https://guides.github.com/activities/hello-world/><br>
+<https://rogerdudler.github.io/git-guide/><br>
+<https://www.atlassian.com/git/tutorials/using-branches><br>
+<https://www.atlassian.com/git/tutorials/comparing-workflows>
+
 #### Week 2
 
 Virtual Machines as Instruction Interpreter
