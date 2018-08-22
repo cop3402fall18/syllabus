@@ -115,7 +115,7 @@ Introduction, Grading, Setting up Git
 
 08/22 [Processor](slides/lecture1_processor.pdf)
 
-C and Makefiles:
+C and Makefiles:<br>
 <https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>
 <https://randu.org/tutorials/c/make.php>
 <https://stackoverflow.com/questions/6666805/what-does-each-column-of-objdumps-symbol-table-mean>
