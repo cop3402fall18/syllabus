@@ -106,19 +106,27 @@ Weekly topics may shift earlier or later depending on the speed of
 lectures, student interest, etc, but the general flow of the topics
 will remain the same.
 
+
 #### Week 1
 
 Introduction, Grading, Setting up Git
 
-08/20
+08/20 [Intro](slides/lecture0_intro.pdf)
 
-08/22
+08/22 [Processor](slides/lecture1_processor.pdf)
+
+C and Makefiles:
+<https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>
+<https://randu.org/tutorials/c/make.php>
+<https://stackoverflow.com/questions/6666805/what-does-each-column-of-objdumps-symbol-table-mean>
+<https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html>
 
 Git tutorials:<br>
 <https://guides.github.com/activities/hello-world/><br>
 <https://rogerdudler.github.io/git-guide/><br>
 <https://www.atlassian.com/git/tutorials/using-branches><br>
 <https://www.atlassian.com/git/tutorials/comparing-workflows>
+
 
 #### Week 2
 
