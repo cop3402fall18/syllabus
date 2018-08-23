@@ -11,8 +11,6 @@ or better.
 
 [Syllabus Repository](https://github.com/cop3402fall18/syllabus)
 
-[GitHub Classroom](https://classroom.github.com/classrooms/42438301-systems-software-at-ucf)
-
 _All assignment submissions must go through GitHub Classroom, which
 requires a free GitHub [account](https://github.com/)._
 
