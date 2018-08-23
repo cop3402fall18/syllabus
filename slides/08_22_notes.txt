@@ -1,0 +1,52 @@
+1 Hello world C program (hello_world.c)
+- Factorial C program (factorial.c)
+
+- The C compiler (gcc)
+- We can use `objdump -t factorial.o` to look at the executable files.
+- We implemented External functions in C. Example with header files.
+- We can link both object files with gcc using `gcc -o run factorial.o run.o`
+-
+2 Basics of Makefile
+- The first convention of a Makefile is `all:`
+- Automatic variables in Makefile
+	- $@ and $^
+- A Makefile is a script that tells the system what to do. Instead of having to runa series of commands you just write them all in the Makefile. It's like a `executable readme`
+- Every Makefile should have a `clean` section. Kill everything that you generated.
+
+* Get a cow fortune teller in your terminal 
+https://www.demetriusmichael.com/2017/07/25/fortune-cowsay-lolcat-terminal-win.html
+
+- A Makefile is smart enough to not recompile things that already exist
+- Makefiles make things easier in the long run because when your program gets big all the compiling is automated.
+
+3 Git
+- Created a repository
+- Created a branch
+- Edited the new branch
+- Made a pull request to update the master branch code
+- Code reviews are a revolutionary feature for version control
+- Wrote comments on the pull request and asked to update the code
+- Made a second commit and fixed the errors
+- Approved the pull request
+- Merged the test-branch to master
+- If you're cool you don't use the Github UI, instead you use Git in the command line
+- Clone a repository with `git clone <url to repo>`
+- You can find the git repo url on the github repo web page.
+- To look at branches use `git branch`
+- To add files use `git add`
+- You can use `git status` to see what is going on with your repository.
+- Use `git commit -m "<your message>"` to send your changes to the repository.
+- Before your changes show, you will have to use `git push origin master`
+- Github has a different view of the master branch then the local system so you first `git pull` and then everyone is on the same page so you may `git push origin master`
+- You can check if your system has git with `git --version`
+- `gitk` can show a visualization of your branches
+- You can create a branch quickly with `git checkout -b`
+
+* If you're having trouble with git on the command line, look into `github desktop`or `gitkraken` (pro version comes free with github student developer pack)
+
+- `git merge <branch name>` to merge your branch to the current branch you are on.
+- `git log` to see a text history of your git repository
+
+* If you want to be simple with git then you really only have to use the following git commands in your workflow after you configure your command line with your repository: 1 `git add .` 2. `git status` 3. `git commit -m "<message>"` 4. `git push origin master`
+
+4 Started Lecture with slides on github
