@@ -241,10 +241,10 @@ __Assignment 4 Compiler Due 12/02 11:59PM__
 - 20% Midterm Exam: closed book, closed notes exam given in class
 - 30% Final Exam: closed book, closed notes comprehensive exam given during final exam week. _You must score at least 60% on this exam to pass the course_
 - 50% Programming project
-  - 10% Assignment 1 PM/0
+  - 15% Assignment 1 PM/0
   - 5% Assignment 2 Lexer
   - 5% Assignment 3 Parser/Code Gen
-  - 20% Assignment 4 Compiler
+  - 25% Assignment 4 Compiler
 - _Extra_ 7%: Participation, recitation attendance, quizzes.
   Completion of these tasks can add extra percentage points, e.g., if
   you receive an 86% average on the exams and project and 6% on the
