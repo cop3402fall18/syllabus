@@ -14,7 +14,7 @@ or better.
 _All assignment submissions must go through GitHub Classroom, which
 requires a free GitHub [account](https://github.com/)._
 
-Please use your ucf email address and make it visible on you github profile.
+Please provide the github ID via webcourses.
 
 ## Meeting Times
 
