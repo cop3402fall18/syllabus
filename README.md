@@ -130,7 +130,7 @@ Git tutorials:<br>
 
 Virtual Machines as Instruction Interpreter
 
-08/27
+08/27 [Processor](slides/lecture1_processor.pdf)
 
 08/29
 
