@@ -160,6 +160,11 @@ Lexical Analysis
 
 09/19
 
+Tips on using git tags/releases:<br>
+<https://rogerdudler.github.io/git-guide/><br>
+<https://help.github.com/articles/working-with-tags/><br>
+<https://git-scm.com/book/en/v2/Git-Basics-Tagging>
+
 #### Week 6
 
 Grammars
