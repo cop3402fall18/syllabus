@@ -132,7 +132,7 @@ Git tutorials:<br>
 
 Virtual Machines as Instruction Interpreter
 
-08/27
+08/27 [Processor](slides/lecture1_processor.pdf)
 
 08/29
 
@@ -161,6 +161,11 @@ Lexical Analysis
 09/17
 
 09/19
+
+Tips on using git tags/releases:<br>
+<https://rogerdudler.github.io/git-guide/><br>
+<https://help.github.com/articles/working-with-tags/><br>
+<https://git-scm.com/book/en/v2/Git-Basics-Tagging>
 
 #### Week 6
 
