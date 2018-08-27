@@ -134,7 +134,7 @@ Virtual Machines as Instruction Interpreter
 
 08/27 [Processor](slides/lecture1_processor.pdf)
 
-08/29
+08/29 [Virtual Machines](slides/lecture2_vm.pdf)
 
 #### Week 3
 
