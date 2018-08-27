@@ -79,7 +79,9 @@ _Note: all times are in UCF's Eastern time zone._
 
 #### Assignments
 
-- __Assignment 1 PM/0 Due 09/16 11:59PM__
+_See webcourse announcement for GitHub classroom submission link._
+
+- __[Assignment 1 PM/0](assignments/assignment1_pm0.pdf) Due 09/16 11:59PM__
 
 - __Assignment 2 Lexer Due 10/07 11:59PM__
 
