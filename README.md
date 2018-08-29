@@ -48,7 +48,10 @@ Location is as determined by the University.
 
 [Paul Gazzillo](https://paulgazzillo.com)<br>[paul.gazzillo@ucf.edu](mailto:paul.gazzillo@ucf.edu)<br>HEC-239
 
-Office Hours: MW 4:30PM-5:30PM or by appointment.
+Office Hours:
+- M 4:30PM-5:30PM
+- W 4:30PM-6:00PM
+- by appointment
 
 ### GTAs
 
