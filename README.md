@@ -145,7 +145,7 @@ Subprogram Implementation
 
 09/03 _No Class (labor day)_
 
-09/05
+09/05 [Virtual Machines](slides/lecture2_vm.pdf) [Subprograms](slides/lecture3_subprograms.pdf)
 
 #### Week 4
 
