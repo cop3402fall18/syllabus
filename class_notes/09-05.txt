@@ -1,0 +1,93 @@
+COP3402 CLASS NOTES 09/05/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Reminders:
+	- The virtual machine assignment is due in ~ a week and a half
+	- If you need help with github, feel free to send the professor an email or stop by his office hours
+
+Class notes: (lecture2_vm.pdf from the syllabus github repository)
+
+We started by talking about the activation record.
+	- Activation records store information about the program so that the program knows where to return after a function call.
+
+The Instruction Set Architecture (ISA) of a machine is a list of commands that the machine can do. For the P-Machine that we're going to write, The ISA is as follows:
+	
+	_Instruction Format:
+		A typical P-Machine instruction will look like: 12 XYZ M R
+		The first number on the left is the line number.
+		The set of letters that follow the line number are the operation from the ISA that's being performed.
+		M and R are integers that change depending on the instruction that's being executed.
+
+	_List of instructions:
+		01) LIT, which stands for 'literal'. All what this operation does is push a numerical value ontop of the stack.
+		02) OPR, stands for 'operation'. For this instruction, the values of M and R dictate which operation will be preformed.
+		    For example, when M is 0 and R is 2, the program will add the top two numbers on the stack.
+		... and complete list of instructions are on the slides.
+
+	_Example of a program written in PL/0
+		Available on the slides.
+
+
+Activations records: This is how a typical activation record looks like. The elipses
+					 on the top and bottom of the AR indicates that there could be many
+					 ARs ontop and/or below it. 
+		  .
+		  .
+		  .
+	+------------+
+	| Parameter  |  -----> Stores the parameters that are passed into the funciton  	
+	+------------+
+	|    Local   |    	
+	+    ....    +  -----> Elipse indication that any number of local variables can be here
+	|  Variables |		   These are local variables that are declared in the function
+	+------------+
+	|Dynamic Link|  -----> Points to the address of the function that called it
+	+------------+
+	| StaticLink |	-----> This points to the address of the parent fucntion
+	+------------+
+	| Func.Value |  -----> A place to store the value that will be returned
+	+------------+
+		  .
+		  .
+		  .
+
+If you had this simple program.
+	string x = "global"
+	g() {								// Right now, g() is considered the "parent fuction" of h1 and h2
+		string x = "x in g()"			
+		string y = "y in g()"
+
+		h1() {
+			string x = "x in h1"
+			print x 					// The first print function will print "x in h1" since that is the x
+			print y 					// that's "closest" to it. The second print will print "y in g()",
+										// since that's the only y variable that it has access to it. 
+			h2()						// h2() is being called in h1
+		}
+		h2() {							// Notice that the parent funtion of h2() and h1() is g()
+			nested() {					// The parent function of nested() is h2()
+				print x 				// In an actiavtion record, the "static link" always points to the
+				print y 				// address of the parent function. So it doesn't matter how or where
+			}							// the fucntion is called. They dynamic link on the other hand will always
+										// Point to the function that called it. So the value of the dynamic link
+			string y = "y in h2"		// can always be different based on who called the funciton.
+			print x
+			print y 					// This print will print "y in h2"
+			nested()					// This will call the function named "nested". It will print "x in g()"
+		}								// and "y in g()"
+
+
+		h1()
+	}	
+
+
+Assignment 1 notes: 
+	- The pdf that's in the assignment folder on the github repository has the instructions
+	- It contains some code that we're going to need.
+	- We'll need to implement a long switch statement that will execute the instruction based on the
+	  instruction that was fetched.
+	- The code skeleton lays out what to do
+	- You're going to keep reading in code until you hit a "halt" instruciton
+	- You only have a week and a half left.
+	- Don't feel shy to stop by office hours and ask questions :)
