@@ -153,7 +153,7 @@ Compilers and Interpreters
 
 09/10 [Compilers and Interpreters](slides/lecture4_lecture4_compilers_interpreters.pdf)
 
-09/12
+09/12 [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
 
 __Assignment 1 PM/0 Due 09/16 11:59PM__
 
