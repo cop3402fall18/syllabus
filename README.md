@@ -155,6 +155,9 @@ Compilers and Interpreters
 
 09/12 [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
 
+Reading:<br>
+Dragon book Ch3, 3.1-3.7 (inclusive).
+
 __Assignment 1 PM/0 Due 09/16 11:59PM__
 
 #### Week 5
