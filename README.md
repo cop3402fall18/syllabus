@@ -167,8 +167,6 @@ Lexical Analysis
 Reading:<br>
 Dragon book Ch3, 3.1-3.7 (inclusive).
 
-<!-- Homework problems:<br> -->
-
 More info on regular languages and finite automata:
 
 - Proofs of equivalence [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/RestrictedAccess/Slides/301lecture03.pdf) and [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/)
@@ -270,6 +268,15 @@ except in accordance with University policy.  However, the programming
 project is cumulative: assignments 2-4 each depend on the previous
 assignment and assignment 4 depends on all previous assignments.  The
 assignment weights reflect this dependence.
+
+### Assignment Grading in Detail
+
+Assignment 1:
+
+- 5pts if it compiles and runs (even if no tests pass)
+  - or 3pt if there is substantial implementation effort but doesn't compile
+- 5pts for the given test cases (e.g., .5pt for each case)
+- 5pts for the secret test cases 
 
 ### Grade Calculation
 
