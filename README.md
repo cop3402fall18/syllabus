@@ -82,18 +82,15 @@ _Note: all times are in UCF's Eastern time zone._
 
 #### Assignments
 
-_See webcourse announcement for GitHub classroom submission link._
+_See webcourse announcements for the GitHub classroom submission link for each assignment._
 
 - __[Assignment 1 PM/0](assignments/assignment1_pm0.pdf) Due 09/16 11:59PM__
 
-- __Assignment 2 Lexer Due 10/07 11:59PM__
+- __[Assignment 2 Lexer](assignments/assignment2_lexer.pdf) Due 10/07 11:59PM__
 
 - __Assignment 3 Parser/Code Gen Due 10/28 11:59PM__
 
 - __Assignment 4 Compiler Due 12/02 11:59PM__
-
-_Note: GitHub classrooms only shows the date for the final assignment.
-Refer to this syllabus for the official due dates._
 
 #### Exams
 
@@ -130,7 +127,6 @@ Git tutorials:<br>
 <https://www.atlassian.com/git/tutorials/using-branches><br>
 <https://www.atlassian.com/git/tutorials/comparing-workflows>
 
-
 #### Week 2
 
 Virtual Machines as Instruction Interpreter
@@ -164,14 +160,20 @@ __Assignment 1 PM/0 Due 09/16 11:59PM__
 
 Lexical Analysis
 
-09/17
+09/17 [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
 
 09/19
 
-Tips on using git tags/releases:<br>
-<https://rogerdudler.github.io/git-guide/><br>
-<https://help.github.com/articles/working-with-tags/><br>
-<https://git-scm.com/book/en/v2/Git-Basics-Tagging>
+Reading:<br>
+Dragon book Ch3, 3.1-3.7 (inclusive).
+
+<!-- Homework problems:<br> -->
+
+More info on regular languages and finite automata:
+
+- Proofs of equivalence [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/RestrictedAccess/Slides/301lecture03.pdf) and [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/)
+
+- [Regular expression interpreter assignment](https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p4)
 
 #### Week 6
 
