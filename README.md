@@ -57,7 +57,7 @@ Office Hours:
 
 Sharare Zehtabian<br>[sharare.zehtabian@knights.ucf.edu](mailto:sharare.zehtabian@knights.ucf.edu)
 
-Necip Yildiran<br>[yildiran@knights.ucf.edu](mailto:yildiran@knights.ucf.edu)
+Necip Yildiran<br>[yildiran@knights.ucf.edu](mailto:yildiran@knights.ucf.edu)<br>HEC-213<br>Office Hours: MW 10.30AM-11.30AM
 
 ## Course Description
 
