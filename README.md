@@ -160,7 +160,7 @@ __Assignment 1 PM/0 Due 09/16 11:59PM__
 
 Lexical Analysis
 
-09/17 [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
+__09/17__ [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
 
 Reading:<br>
 Dragon book Ch3, 3.1-3.7 (inclusive).
@@ -171,12 +171,13 @@ More info on regular languages and finite automata:
 
 - [Regular expression interpreter assignment](https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p4)
 
-- [egrep mini tutorial](http://www.cs.columbia.edu/~tal/3261/fall07/handout/egrep_mini-tutorial.htm)
-
-09/19 [Syntax Analysis](slides/lecture5_syntax_analysis.pdf)
+__09/19__ [Syntax Analysis](slides/lecture5_syntax_analysis.pdf)
 
 Reading:<br>
 Dragon book Ch4, 4.1,4.2
+
+- [egrep mini tutorial](http://www.cs.columbia.edu/~tal/3261/fall07/handout/egrep_mini-tutorial.htm)
+- [The C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp.pdf)
 
 - [Parsing: a timeline](https://jeffreykegler.github.io/personal/timeline_v3)
 - [Undershoot: Parsing theory in 1965](https://jeffreykegler.github.io/Ocean-of-Awareness-blog/individual/2018/07/knuth_1965_2.html)
