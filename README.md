@@ -162,8 +162,6 @@ Lexical Analysis
 
 09/17 [Lexical Analysis](slides/lecture5_lexical_analysis.pdf)
 
-09/19
-
 Reading:<br>
 Dragon book Ch3, 3.1-3.7 (inclusive).
 
@@ -172,6 +170,14 @@ More info on regular languages and finite automata:
 - Proofs of equivalence [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/RestrictedAccess/Slides/301lecture03.pdf) and [here](http://www.cs.colostate.edu/~massey/Teaching/cs301/)
 
 - [Regular expression interpreter assignment](https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p4)
+
+- [egrep mini tutorial](http://www.cs.columbia.edu/~tal/3261/fall07/handout/egrep_mini-tutorial.htm)
+
+09/19 [Syntax Analysis](slides/lecture5_syntax_analysis.pdf)
+
+Reading:<br>
+Dragon book Ch4, 4.1,4.2
+
 
 #### Week 6
 
