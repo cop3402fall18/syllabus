@@ -171,7 +171,7 @@ More info on regular languages and finite automata:
 
 - [Regular expression interpreter assignment](https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p4)
 
-__09/19__ [Syntax Analysis](slides/lecture5_syntax_analysis.pdf)
+__09/19__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)
 
 Reading:<br>
 Dragon book Ch4, 4.1,4.2
