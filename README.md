@@ -178,6 +178,8 @@ More info on regular languages and finite automata:
 Reading:<br>
 Dragon book Ch4, 4.1,4.2
 
+- [Parsing: a timeline](https://jeffreykegler.github.io/personal/timeline_v3)
+- [Undershoot: Parsing theory in 1965](https://jeffreykegler.github.io/Ocean-of-Awareness-blog/individual/2018/07/knuth_1965_2.html)
 
 #### Week 6
 
