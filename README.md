@@ -188,8 +188,10 @@ Grammars
 
 __09/24__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)
 
-Reading:<br>
-Dragon book 4.1-4.4 (inclusive).
+- Reading: Dragon book 4.1-4.4 (inclusive).
+- Intro recursive descent: Dragon Book chapter 2
+- Floating point rounding error: <https://stackoverflow.com/questions/5997027/python-rounding-error-with-float-numbers>
+
 
 09/26
 
