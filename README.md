@@ -186,9 +186,13 @@ Dragon book Ch4, 4.1,4.2
 
 Grammars
 
-09/24
+__09/24__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)
+
+Reading:<br>
+Dragon book 4.1-4.4 (inclusive).
 
 09/26
+
 
 #### Week 7
 
