@@ -188,19 +188,29 @@ Grammars
 
 __09/24__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)
 
+- [Parse Trees](figures/1_parse_trees.pdf)
+- Need for associativity to resolve ambiguity (example in `python` interactive mode)
+
+        >>> 100 * (float(29) / 100)
+        28.999999999999996
+        >>> (100 * float(29)) / 100
+        29.0
+
 - Reading: Dragon book 4.1-4.4 (inclusive).
-- Intro recursive descent: Dragon Book chapter 2
 - Floating point rounding error: <https://stackoverflow.com/questions/5997027/python-rounding-error-with-float-numbers>
 
+__09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf) [Parse Trees](figures/parse_trees.pdf)
 
-09/26
-
+- Reading: Dragon book 4.1-4.6,4.8 (inclusive).
+- Intro to recursive descent: Dragon Book chapter 2
 
 #### Week 7
 
-Recursive Descent
+Parsing
 
 10/01
+
+- Reading: Dragon book 4.9 and (optionally) 4.7.
 
 10/03
 
