@@ -203,6 +203,9 @@ __09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)  [Recursive Des
 
 - Intro to recursive descent: Dragon Book 2.4
 - Reading: Dragon Book 4.1-4.6,4.8 (inclusive).
+- <http://csis.pace.edu/~wolf/CS122/infix-postfix.htm>
+- <https://en.wikipedia.org/wiki/Shunting-yard_algorithm>
+- [Extended Backus-Naur Form](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form)
 
 #### Week 7
 
