@@ -199,10 +199,10 @@ __09/24__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)
 - Reading: Dragon book 4.1-4.4 (inclusive).
 - Floating point rounding error: <https://stackoverflow.com/questions/5997027/python-rounding-error-with-float-numbers>
 
-__09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf) [Parse Trees](figures/parse_trees.pdf)
+__09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)  [Recursive Descent](slides/lecture7_recursive_descent.pdf)
 
-- Reading: Dragon book 4.1-4.6,4.8 (inclusive).
-- Intro to recursive descent: Dragon Book chapter 2
+- Intro to recursive descent: Dragon Book 2.4
+- Reading: Dragon Book 4.1-4.6,4.8 (inclusive).
 
 #### Week 7
 
