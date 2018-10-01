@@ -209,10 +209,9 @@ __09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)  [Recursive Des
 
 #### Week 7
 
-Parsing
+10/01 [LL1 Parsing](slides/lecture8_ll1.pdf)
 
-10/01
-
+- Reading: Dragon book 4.1-4.4 (inclusive).
 - Reading: Dragon book 4.9 and (optionally) 4.7.
 
 10/03
