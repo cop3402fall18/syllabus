@@ -221,6 +221,27 @@ __Assignment 2 Lexer Due 10/07 11:59PM__
 #### Week 8
 10/08 Review for the Midterm
 
+- pm/0 and activation records
+  - draw activation records for a given program execution
+  - identify base pointer, stack pointer
+  - dynamic link, static link
+  - recursion
+  - stack machine vs register machine
+
+- regular languages and lexing
+  - math defintion of a regular language: language (strings over a finite alphabet) that can be described with a regular expression
+  - convert between english language description, regular expression, and discrete finite automata
+  - hand-coding a lexer from a regular expression
+  - lexemes vs tokens
+  - ascii encoding
+
+- cfgs and parsing
+  - math definition of cfg (terminals, nonterminals, productions, starting symbol)
+  - identify ambiguous grammar (two derivations), operator precedence
+  - draw parse tree for tokens given grammar
+  - identify left recursion, do left factoring
+
+
 10/10 _Midterm_
 
 __Midterm in class 10/10 7:30PM__
