@@ -211,10 +211,13 @@ __09/26__ [Syntax Analysis](slides/lecture6_syntax_analysis.pdf)  [Recursive Des
 
 10/01 [LL1 Parsing](slides/lecture8_ll1.pdf)
 
+- [Predictive Parsing Example](figures/2_predictive_parsing.pdf)
 - Reading: Dragon book 4.1-4.4 (inclusive).
 - Reading: Dragon book 4.9 and (optionally) 4.7.
 
-10/03
+
+10/03 [Lexing and Parsing Overview](figures/3_files_lexing_parsing_overview.pdf)
+
 
 __Assignment 2 Lexer Due 10/07 11:59PM__
 
