@@ -1,0 +1,44 @@
+COP3402 CLASS NOTES 09/17/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Reminders:
+    - The homework should be graded and posted in "about a week or two".
+    - The exam will contain material related to the first two assignments.
+    - Assignment1 grade rubric is on the github syllabus repo.
+    - Assignment2 skeleton code is also available on the classroom github.
+    
+
+Notes: (lecture5_lexeical_analysis powerpoint slides)
+LEXERS:
+    - We use regular expression to be able to represent languages in a mathematical and abstract way.
+    ~~ Dr. Gazzillo recommends reading up lexical analysis and regular expressions in the "dragon book".
+    ~~ (That is the book that is recommended in the syllabus.) Look under "Week 5" on the syllabus repo
+
+    - Any programing language can be broken down like a regular spoken language. We break down characters
+      into "tokens".
+
+    - A lexer is a machine that can take string of characters and breakdown into individual tokens.
+    ~~ Dr. Gazzillo will use the terms "scanner" and "lexer" interchangeably.
+
+
+REGULAR EXPRESSION:
+    Symbol:
+        * - Means that the expression can be used any number of times (0 to infinity). AKA Kleene star.
+        | - Is analogous to the OR operator. (a|b) means a OR b
+
+
+DIFFERENCE BETWEEN A TOKEN AND A LEXEME:
+    - In practice, they usually mean the same thing. Formally speaking, lexeme is a lot more specific
+      than a token. A token can be considered as any group of characters. For example the token "number"
+      can be defined as any number of digits, followed by an optional decimal point, then another sequence
+      of digits. A lexeme would be 3.141592, 22384, -384, etc... 
+
+
+TRANSITION DIAGRAMS:
+    - These are ways represent regular expressions. There are a lot of diagrams involved that I can't draw
+      on this text editor. It would be easier if you just look at the slides for transition diagrams.
+
+    - ASCII tables are read like a cartesian graph. It's represented in hex. So the semi-colon symbol ';'
+      is represented by the ASCII character 59. In hex, that would be 3B. To look this up in a ASCII table,
+      you would go to column '3' then row 'B'.

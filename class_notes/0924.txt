@@ -1,0 +1,67 @@
+COP3402 CLASS NOTES 09/24/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Notes: Parse Trees will probably be on the midterm and/or final exam!!
+
+                                         Dr. Gazzillo himself
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Dr. G: The recommended class text book explains the concept of CFG really well in
+                    mathematical terms (4.2.1) and recommends students to read it.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+- When talking about the compiler, I will be referencing the diagrom on the lecture4 ppt slides on slide 6.
+- We continuing on with lecture6 ppt from slide 3.
+
+- There are 4 main things that Context Free Grammar (CFG) (T, R, N, S)
+    - (T) Terminals:    These are the tokens that cannot be broken down any further.
+                        All traversal stops at once a Terminal is hit.
+    - (N) Non-Terminal: These are the opposite of terminals, these are the tokens that can be broken down
+                        further into more Terminals or non-terminals.
+    - (S) Starters:     
+
+
+    - Each one of these lines (like the ones that are on slide 14) are called a "production"
+    - There are a couple of noteworthy things happening on slide 14.
+        - Because <stmt-list> calls <stmt-list>, that means you can have a program with infinite statements.
+          (similar to the concept of the Kleene Star).
+        - Notice how the <stmt-list> can become <stmt> without a semicolon. Which means that the very last
+          statement will NOT have a semi colon. If it wasn't the last, it will belong to the <stmt-list> ->
+          <stmt> ; <stmt-list>, and that production clearly has a semi colon.
+
+    - A parse tree is a pretty way to represent the same thing (called a parse tree)
+    Example: Draw the parse tree of:
+    a) id + id * id               ANSWERS:
+    b) (id + id) * id             a)              E                                                  
+    .   E-> E + T | T                         /   |    \                                        
+    .   T-> T * F | F                       E     |       T                                                
+    .   F-> id | (E)                        |     |    /  |  \                                                 
+    .  ^^^^^^^^^^^^^^^^                     T     |   T   |   F                                                 
+    .  ^This is the   ^                     |     |   |   |   |                                                  
+    .  ^language that ^                     F     |   F   |   | 
+    .  ^we're using   ^                     |     |   |   |   |
+    .  ^^^^^^^^^^^^^^^^                     id    +  id   *   id
+    .
+    .
+    .                             b)                    E
+    .                                                   |
+    .                                                   T
+    .                                               /   |   \
+    .                                             T     |    F
+    .                                            /      |    | 
+    .                                           F       |    | 
+    .                                        /  |  \    |    | 
+    .                                       /   |   \   |    | 
+    .                                      |    E    |  |    | 
+    .                                      |  / | \  |  |    | 
+    .                                      | E  |  T |  |    |
+    .                                      | |  |  | |  |    |
+    .                                      | T  |  F |  |    |
+    .                                      | |  |  | |  |    |
+    .                                      | F  |  | |  |    |
+    .                                      | |  |  | |  |    |
+    .                                      ( id +  id)  *    id
+
+    - Ambiguity: (slide 23)
+        - When there are two perfectly valid parse trees to arrive at the same expression.
+        - Ambiguity in programming languages is a bad thing.

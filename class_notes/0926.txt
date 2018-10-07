@@ -1,0 +1,68 @@
+COP3402 CLASS NOTES 09/26/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Recitation:
+	1) All the strings of 0's and 1's ---> (0 | 1)*
+	2) All the strings of 0's and 1's with atleast 2 consecutive 0's ---> (0 | 1)*00(0 | 1)*
+
+                                         Dr. Gazzillo himself
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Dr. G: He really really really recommends people to read the Dragon Textbook section
+               on Context Free Grammars.
+        Dr. G: Section 2.4 of the book goes over a the concept behind a parser.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Notes: (Continuing lecture6 Powerpoint slides)
+	- Started with a review of last lecture (check 0924.txt notes)
+
+
+RECURSIVE DESCENT PARSING:
+	- Recursive descent is a type of top-down parsing. Probably the simplest form of a top-down parser.
+	- It's a method of generating parse trees.
+	- Recursive descent parsers are relatively simple to comprehend and write.
+	- The downside is that it doesn't work on every grammar and left recursion wrecks it.
+	- Left recursion is bad. Whenever we see left recursion, we need to get rid of it somehow.
+	- Left recursion will result in a infinite recursion.
+	- Think of left recursion as this function.
+		int f(void)
+		{
+			int x = f();		// This function will go on forever.
+								// This is analogous to left recursion. Which should explain why
+			return x;			// it's bad and we should eliminate it whenever we see it.
+		}
+
+	- In the language:
+		E -> E + T | T
+		T -> T * F | F
+		F - > id | (E)
+
+	- We can eliminate left recursion by rewriting the language as:
+		E -> TE'
+		E'-> + TE' | e   <---- I will be using 'e' as a surrogate for epsilon - the empty string.
+		T -> FT'
+		T'-> * FT' | e
+		F -> (E)   | id
+
+	- Going back to the id + id * id. Using our new left-recursion-free CFG, our new parse tree
+	  would look like:
+	  										E
+	  									/   |   \
+	  								   /    |    \
+
+
+	BOTTOM UP PARSING:
+		- You start at the bottom and work your way up.
+		- The shunting-yard algorithm is an example of a bottom up parsing.
+		- It converts a mathematical expression that's written in in-fix to post-fix.
+		- It uses stacks to implement.
+		~~ There's an example of the shunting-yard algorithm on the syllabus repo in a file
+		~~ named "3_caluclator"
+
+
+	LEFT FACTORING:
+		- This is another problem with recursive descent parsing.
+		- It's very similar to factoring in math.
+
+	Syntax Graphs:
+		- 

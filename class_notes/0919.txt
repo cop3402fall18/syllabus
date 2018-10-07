@@ -1,0 +1,51 @@
+COP3402 CLASS NOTES 09/19/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Class began with a tutorial of regular expressions in a terminal using the "egrep" command.
+In regular expression, the pipe symbol "|" alone means that either options MUST be used.
+	- so the regular expression (a|b) means that a or b must chosen (ie. The empty string is not
+	  an option)
+	- If you wanted the empty string, it would look like this (a|b|). Notice how there's an empty space
+	  after the second pipe, indicating that the empty string is a possiblity.
+
+Back to Compilers:
+	- In the compiler diagram that's on the slide titled "Compiler", there's a part that's not mentioned
+	  that not all languages use that's called the "preprocessor". This is related to "header guards" that
+	  are used in C and C++ header files.
+
+EXAMPLE CODE
+=============HEADER FILE===============   <------- header.h
+in in_header = 0;
+
+===========END OF HEADER FILE==========
+
+================C FILE=================   <------- main.c
+#include "header.h"
+#include <stdio.h>                        // If you run the command "gcc -E main.c", it'll give you a
+                                          // detailed list of what's happening behind the scenes
+int main(void)                            // What's the include does, is literally just copy and paste
+{                                         // whatever is in the header file to the beginning of the .c
+	printf("%d\n", in_header);            // file.
+	return 0;                             // Header guards prevents the program from doing weird things
+}                                         // if a header file was accidentally #included twice.
+                                          // All what #inlcude does, is copy and paste whatever is in
+===============END OF C FILE===========   // the header file to the c file.
+
+    - This prepocessor director is located between the "lexical analyzer" and the "syntax analyzer"
+
+~~ Dr. Gazzillo started his lecture6_syntax_analysis.ppt
+CONTEXT FREE GRAMMAR (CFG) - Slide 6
+    - Most programming languages can be considered as a CFG. It's a method of breaking down the language
+      to smaller components. The smallest component of a sentence is called a "terminal". Anything that
+      can be further broken down is a "non-terminal". On the ppt slides, <sentence> can be broken down to
+      <subject> and <predicate>, therefore, <sentence> is a nonterminal. "Mary" and "John" are considered
+      terminals since they can't be broken down to anything else.
+    
+    - Recursion allows you to have an infinite langauge.    
+
+    Slide 14:
+    <stmt-list> -> <stmt> | <stmt> ; <stmt-list>
+
+                      ^ you can think of this <stmt> as a base-case. Without it, we'd have a case of
+                        infinite recursion. Each <stmt-list> will call another <stmt-list>

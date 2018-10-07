@@ -1,0 +1,137 @@
+COP3402 CLASS NOTES 10/01/2018
+Written by Soliman Alnaizy
+Note to reader: I think these notes would look best if you either make it full screen or shrink the font.
+
+Reminders:
+    - Lexer Assignment is due next week!
+    - All you need to do is implement the three DFA functions in the lexical_analyzer.c file
+
+                                         Dr. Gazzillo himself
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Dr. G recommends reading the dragon book to get a better understanding of the "First Set"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Notes: (Continuing lecture6 Powerpoint slides)
+    - Started with a review of last lecture (check 0926.txt notes)
+    - Looking back at our simple language
+    E -> E + T | T
+    T -> T * F | F
+    F -> id    | ( E )
+
+    ... the terminals in this language are 'id', right parenthesis ')', plus '+', and the astrisks '*'
+    A terminal is any term that can be the "leaf nodes" of a parse tree.
+
+STARTING "PREDICTIVE PARSING" SLIDES (lecture8):
+    - First Set... 
+
+    - The '$' symbol is analogous to 'EOF' in C. It represents when we've reached the end of the string
+    - We added an 'S' production that so that we have a place to start with.
+    - The 'S' is just so we have an easy way to add the '$', instead of having to edit every production.
+
+    How to use a parse table:
+    - The predictive parsing table helps us know which production we are in based on the look-ahead.
+
+    (Using the predivitve parsing table on slide 11)
+    In the example code: id + id * id$  <--- The dollar sign is necessary, because of the 'S' production
+                          ^             <--- I'll use a carrot symbol to represent the where the "look-ahead" is
+
+    - Given the 'S' production, we know that we'll always start with an 'E'
+    PARSE TREE:
+            E                                id + id * id$
+                                              ^
+    - We're at E and our look-ahead is 'id', our predictive table says that we must be at a E -> TE'
+
+            E                                id + id * id$
+         /     \                              ^
+        T       E'                          
+
+    - We'll go through our parse tree as if we're preforming a post-traversal on a binary tree. So the
+      next non-terminal we'll break down is the T. The parse table tells us that if we're at a T, and
+      out look-ahead is 'id', then we must be at a T -> FT' production. I'll use this logic to fill in
+      the rest of the tree.
+
+            E                                id + id * id$
+         /     \                              ^
+        T       E'            
+      /   \
+    F      T'
+    |
+    id
+
+    - We've finally placed the id at the F, which means we can advance out look-ahead
+
+            E                                id + id * id$
+         /     \                                ^
+        T       E'            
+      /   \
+    F      T'
+    |      |
+    id     e                                 using 'e' for 'epsilon'
+
+    - We'll now back up all the way to the E' production
+
+
+              E                                id + id * id$
+         /        \                               ^
+        T           E'            
+      /   \      /  |   \
+    F      T'   +   T    E'                 
+    |      |
+    id     e         
+
+    - We dropped down the plus at the E' production, advance the look-ahead
+      (spacing might start getting a little weird to make everything fit)
+
+                E                              id + id * id$
+         /           \                               ^
+        T              E'            
+      /   \      /     |     \
+    F      T'   +      T      E'                  
+    |      |        /    \
+    id     e       F      T'
+                   |      
+                   id
+
+    - Dropped the second id at the 'F', advance look-ahead
+
+                E                              id + id * id$
+         /           \                                 ^
+        T              E'            
+      /   \      /     |       \
+    F      T'   +      T         E'                  
+    |      |        /     \
+    id     e       F       T'
+                   |    /  |  \
+                   id  *   F   T'
+
+    - Dropped the '*' at the T', advance look-ahead
+
+                E                              id + id * id$
+         /           \                                    ^
+        T              E'             
+      /   \      /     |       \
+    F      T'   +      T         E'                  
+    |      |        /     \
+    id     e       F       T'
+                   |    /  |  \
+                   id  *   F   T'
+                           |   |
+                           id
+
+    - We've dropped the final 'id' at the F, we're at the dollar sign now. If you look at the parsing table,
+      all production tables that fall under the '$' evaluate to epsilon
+
+                E                              id + id * id$
+         /           \                                     ^
+        T              E'             
+      /   \      /     |       \
+    F      T'   +      T         E'                  
+    |      |        /     \      |
+    id     e       F       T'    e
+                   |    /  |  \
+                   id  *   F   T'
+                           |   |
+                           id  e
+
+    - And that's how using a predictive parsing table gives us a methodical method to generate a parsing
+      tree. Before it was a trial and error method that was quite inefficient.
