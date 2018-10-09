@@ -88,7 +88,7 @@ _See webcourse announcements for the GitHub classroom submission link for each a
 
 - __[Assignment 2 Lexer](assignments/assignment2_lexer.pdf) Due 10/07 11:59PM__
 
-- __Assignment 3 Parser/Code Gen Due 10/28 11:59PM__
+- __Assignment 3 Parser Due 11/04 (changed from 10/28) 11:59PM__
 
 - __Assignment 4 Compiler Due 12/02 11:59PM__
 
@@ -141,7 +141,10 @@ Subprogram Implementation
 
 09/03 _No Class (labor day)_
 
-09/05 [Virtual Machines](slides/lecture2_vm.pdf), [Subprograms](slides/lecture3_subprograms.pdf)
+09/05 [Virtual Machines](slides/lecture2_vm.pdf)
+
+- Activation records, hand-drawn notes
+- [Subprograms](slides/lecture3_subprograms.pdf
 
 #### Week 4
 
@@ -244,6 +247,14 @@ __Assignment 2 Lexer Due 10/07 11:59PM__
   - draw parse tree for tokens given grammar
   - identify left recursion, do left factoring
 
+- exam layout
+  - 22 questions, 50pts
+  - 9 multiple choice
+  - 13 open answer (3 with multiple parts)
+  - 8pts on activation records
+  - 27pts on regular languages/expressions, DFAs
+  - 15pts on CFGs, parse trees (2pt left factoring/recursion)
+
 
 10/10 _Midterm_
 
@@ -270,14 +281,14 @@ Predictive Parsing
 
 10/31
 
-__Assignment 3 Parser/Code Gen Due 10/28 11:59PM__
-
 #### Week 12
 Assemblers
 
 11/05
 
 11/07
+
+__Assignment 3 Parser/Code Gen Due 11/04 (changed from 10/28) 11:59PM__
 
 #### Week 13
 Loaders
