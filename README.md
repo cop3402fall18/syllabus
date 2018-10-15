@@ -263,6 +263,8 @@ __Midterm in class 10/10 7:30PM__
 #### Week 9
 10/15 [LR Parsing](slides/lecture9_lr.pdf)
 
+- Dragon book 4.6 and 4.7.
+
 10/17
 
 #### Week 10
