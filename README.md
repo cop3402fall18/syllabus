@@ -261,9 +261,7 @@ __Assignment 2 Lexer Due 10/07 11:59PM__
 __Midterm in class 10/10 7:30PM__
 
 #### Week 9
-Predictive Parsing
-
-10/15
+10/15 [LR Parsing](slides/lecture9_lr.pdf)
 
 10/17
 
@@ -275,11 +273,10 @@ Code Generation
 10/24
 
 #### Week 11
-Predictive Parsing
 
-10/29
+10/29 Syntax-Directed Definitions and Code Generation
 
-10/31
+10/31 Type Checking
 
 #### Week 12
 Assemblers
