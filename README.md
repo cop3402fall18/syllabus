@@ -88,7 +88,7 @@ _See webcourse announcements for the GitHub classroom submission link for each a
 
 - __[Assignment 2 Lexer](assignments/assignment2_lexer.pdf) Due 10/07 11:59PM__
 
-- __Assignment 3 Parser Due 11/04 (changed from 10/28) 11:59PM__
+- __[Assignment 3 Parser](assignments/assignment3_parser.pdf) Due 11/04 (changed from 10/28) 11:59PM__
 
 - __Assignment 4 Compiler Due 12/02 11:59PM__
 
