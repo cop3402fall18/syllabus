@@ -337,6 +337,21 @@ Assignment 1:
 - 5pts for the given test cases (e.g., .5pt for each case)
 - 5pts for the secret test cases 
 
+Assignment 2:
+
+- 1pt if it compiles and runs (even if no tests pass) or 0.5pt if there 
+is substantial implementation effort but doesn't compile
+- 2pts for the given test cases (1/7 each)
+- 2pts for the secret test cases (1/7 each)
+
+Assignment 3:
+
+- TBD
+
+Assignment 4:
+
+- TBD
+
 ### Grade Calculation
 
 The score is a weight average of the exams and programming project
