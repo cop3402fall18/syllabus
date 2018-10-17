@@ -270,7 +270,6 @@ __Midterm in class 10/10 7:30PM__
 - [LR parsing example](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lr_parser_animation.pdf)
 - [LR(0) states](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lec14_synVII.pdf)
 - [SLR table construction example](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lr_states_exp.pdf)
-- 
 - Dragon book chapter 5 (skim, optional)
 
 
