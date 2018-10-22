@@ -265,7 +265,7 @@ __Midterm in class 10/10 7:30PM__
 
 - Dragon book 4.6 and 4.7.
 
-10/17 [LR Parsing](slides/lecture9_lr.pdf)  [Code Generation](slides/lecture10_codegen.pdf)
+10/17 [LR Parsing](slides/lecture9_lr.pdf)
 
 - [LR parsing example](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lr_parser_animation.pdf)
 - [LR(0) states](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lec14_synVII.pdf)
@@ -274,17 +274,17 @@ __Midterm in class 10/10 7:30PM__
 
 
 #### Week 10
-Code Generation
 
-10/22
+10/22 Midterm exam discussion
 
-10/24
+10/24 [Code Generation](slides/lecture10_codegen.pdf)
 
 #### Week 11
+Type checking, static analysis, control-flow, data-flow
 
-10/29 Syntax-Directed Definitions and Code Generation
+10/29
 
-10/31 Type Checking
+10/31
 
 #### Week 12
 Assemblers
