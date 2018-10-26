@@ -279,6 +279,8 @@ __Midterm in class 10/10 7:30PM__
 
 10/24 [Code Generation](slides/lecture10_codegen.pdf)
 
+- [Code generation examples](figures/4_codegen.pdf)
+
 #### Week 11
 Type checking, static analysis, control-flow, data-flow
 
