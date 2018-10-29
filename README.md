@@ -51,7 +51,8 @@ Location is as determined by the University.
 Office Hours:
 - M 4:30PM-5:30PM
 - W 4:30PM-6:00PM
-- by appointment
+- or by appointment
+- 11/05, 11/07 moved to 11/09 12:00-3:00
 
 ### GTAs
 
