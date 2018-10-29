@@ -279,13 +279,16 @@ __Midterm in class 10/10 7:30PM__
 10/24 [Code Generation](slides/lecture10_codegen.pdf)
 
 - [Code generation examples](figures/4_codegen.pdf)
-- [Syntax-directed translation](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lec16_semI.pdf)
 - Dragon book chapter 5 (skim, optional)
 
 #### Week 11
 Type checking, static analysis, control-flow, data-flow
 
-10/29
+10/29 [Code Generation](slides/lecture10_codegen.pdf), [Type Checking](slides/lecture11_types.pdf)
+
+- [Syntax-directed translation](https://www.cs.rutgers.edu/~zz124/cs415_spring2014/lectures/lec16_semI.pdf)
+- Dragon book chapter 6 (especially 6.5 on types)
+- [Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf) by Luca Cardelli
 
 10/31
 
