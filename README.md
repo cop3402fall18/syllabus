@@ -361,11 +361,20 @@ is substantial implementation effort but doesn't compile
 
 Assignment 3:
 
-- TBD
+- 1pt if it compiles and runs (even if no tests pass) or 0.5pt if there 
+is substantial implementation effort but doesn't compile
+- 2pts for the given test cases
+- 2pts for the secret test cases
 
 Assignment 4:
 
-- TBD
+- Grade is on the full compiler, including the lexer and the parser
+- 5pts for the lexer
+- 5pts for the parser
+- 15pts for code generation
+  - 5pts if it compiles and runs with some coding effort
+  - 5pts for the given test cases
+  - 5pts for the secret test cases
 
 ### Grade Calculation
 
