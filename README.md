@@ -283,7 +283,7 @@ __Midterm in class 10/10 7:30PM__
 - Dragon book chapter 5 (skim, optional)
 
 #### Week 11
-Type checking, static analysis, control-flow, data-flow
+Type checking
 
 10/29 [Code Generation](slides/lecture10_codegen.pdf), [Type Checking](slides/lecture11_types.pdf)
 
@@ -291,10 +291,12 @@ Type checking, static analysis, control-flow, data-flow
 - Dragon book chapter 6 (especially 6.5 on types)
 - [Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf) by Luca Cardelli
 
-10/31
+10/31 [Type Checking](slides/lecture11_types.pdf), [Formal Semantics and Types](slides/lecture12_formal_types.pdf)
+
+
 
 #### Week 12
-Assemblers
+Static analysis, control-flow, data-flow, machine code generation, assembly
 
 11/05
 
@@ -303,20 +305,21 @@ Assemblers
 __Assignment 3 Parser/Code Gen Due 11/04 (changed from 10/28) 11:59PM__
 
 #### Week 13
-Loaders
+Operating systems, processes, files
 
 11/12 _No Class (Veteran's Day)_
 
 11/14
 
 #### Week 14
-Processes
+Operating systems, processes, files
 
 11/19
 
 11/21
 
 #### Week 15
+
 11/26 Review for the Final
 
 11/28 Review for the Final
