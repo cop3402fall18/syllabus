@@ -293,7 +293,7 @@ Type checking
 
 10/31 [Type Checking](slides/lecture11_types.pdf), [Formal Semantics and Types](slides/lecture12_formal_types.pdf)
 
-
+- [The Unsound Playground](http://io.livecode.ch/learn/namin/unsound)
 
 #### Week 12
 Static analysis, control-flow, data-flow, machine code generation, assembly
