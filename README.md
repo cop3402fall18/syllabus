@@ -298,7 +298,7 @@ Type checking
 #### Week 12
 Static analysis, control-flow, data-flow, machine code generation, assembly
 
-11/05
+11/05 [Control-Flow Analysis](slides/lecture13_cfg.pdf)
 
 11/07
 
