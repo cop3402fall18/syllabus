@@ -91,7 +91,7 @@ _See webcourse announcements for the GitHub classroom submission link for each a
 
 - __[Assignment 3 Parser](assignments/assignment3_parser.pdf) Due 11/04 (changed from 10/28) 11:59PM__
 
-- __Assignment 4 Compiler Due 12/02 11:59PM__
+- __[Assignment 4 Code Generator](assignments/assignment4_codegen.pdf) Compiler Due 12/02 11:59PM__
 
 #### Exams
 
