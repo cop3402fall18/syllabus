@@ -308,7 +308,7 @@ Static analysis, control-flow, data-flow, machine code generation, assembly
 
 11/07 [Data-Flow Analysis](slides/lecture14_dataflow.pdf)
 
-- [Example](figure/6_data_flow.pdf)
+- [Example](figures/6_data_flow.pdf)
 - [Reaching definitions](https://en.wikipedia.org/wiki/Reaching_definition)
 - [Live variables](https://en.wikipedia.org/wiki/Live_variable_analysis)
 - [Data-Flow Framework](https://www.cs.utexas.edu/users/mckinley/380C/lecs/03.pdf)
