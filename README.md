@@ -304,6 +304,7 @@ Static analysis, control-flow, data-flow, machine code generation, assembly
 
 - [Example](figures/5_control_flow.pdf)
 - [LLVM IR example](https://releases.llvm.org/2.6/docs/tutorial/JITTutorial1.html)
+- Dragon book chapter 8
 
 11/07 [Data-Flow Analysis](slides/lecture14_dataflow.pdf)
 
@@ -311,6 +312,7 @@ Static analysis, control-flow, data-flow, machine code generation, assembly
 - [Reaching definitions](https://en.wikipedia.org/wiki/Reaching_definition)
 - [Live variables](https://en.wikipedia.org/wiki/Live_variable_analysis)
 - [Data-Flow Framework](https://www.cs.utexas.edu/users/mckinley/380C/lecs/03.pdf)
+- Dragon book chapter 9
 
 __Assignment 3 Parser/Code Gen Due 11/04 (changed from 10/28) 11:59PM__
 
