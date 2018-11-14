@@ -85,6 +85,10 @@ _Note: all times are in UCF's Eastern time zone._
 
 _See webcourse announcements for the GitHub classroom submission link for each assignment._
 
+_Be sure to submit the GitHub repo URL to webcourses.__
+
+_See the repo README.md for detailed instructions._
+
 - __[Assignment 1 PM/0](assignments/assignment1_pm0.pdf) Due 09/16 11:59PM__
 
 - __[Assignment 2 Lexer](assignments/assignment2_lexer.pdf) Due 10/07 11:59PM__
@@ -317,19 +321,20 @@ Static analysis, control-flow, data-flow, machine code generation, assembly
 __Assignment 3 Parser/Code Gen Due 11/04 (changed from 10/28) 11:59PM__
 
 #### Week 13
-Operating systems, processes, files
+Static analysis, control-flow, data-flow, machine code generation, assembly
 
 11/12 _No Class (Veteran's Day)_
 
-11/14 
+11/14 [Data-Flow Analysis](slides/lecture14_dataflow.pdf),  [Assembly](slides/lecture15_assembly.pdf)
 
-- [The UNIX Time-Sharing System](https://people.eecs.berkeley.edu/~brewer/cs262/unix.pdf)
-
+- [Data-Flow Framework](https://www.cs.utexas.edu/users/mckinley/380C/lecs/03.pdf)
 
 #### Week 14
 Operating systems, processes, files
 
 11/19
+
+- [The UNIX Time-Sharing System](https://people.eecs.berkeley.edu/~brewer/cs262/unix.pdf)
 
 11/21
 
@@ -340,6 +345,8 @@ Operating systems, processes, files
 11/28 Review for the Final
 
 __Assignment 4 Compiler Due 12/02 11:59PM__
+
+__Be sure to update your Assignment 2 and Assignment 3 repos (don't push to the Assignment 4 repo)__
 
 ## Grading
 
