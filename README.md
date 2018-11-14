@@ -52,7 +52,7 @@ Office Hours:
 - M 4:30PM-5:30PM
 - W 4:30PM-6:00PM
 - or by appointment
-- 11/05, 11/07 moved to 11/09 12:00-3:00
+- 11/05, 11/07 moved to 11/09 9:00-11:00 and 12:00-1:00
 
 ### GTAs
 
