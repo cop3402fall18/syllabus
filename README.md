@@ -332,9 +332,12 @@ Static analysis, control-flow, data-flow, machine code generation, assembly
 #### Week 14
 Operating systems, processes, files
 
-11/19
+11/19 [OS Intro](slides/lecture16_os_intro.pdf)
 
 - [The UNIX Time-Sharing System](https://people.eecs.berkeley.edu/~brewer/cs262/unix.pdf)
+- [The Rise of Worse is Better](http://dreamsongs.com/RiseOfWorseIsBetter.html)
+- [Unix and Mach](https://www.cs.cornell.edu/courses/cs6410/2014fa/slides/02-classic.pdf)
+- [The Process Concept](slides/process_concept.pdf)
 
 11/21
 
