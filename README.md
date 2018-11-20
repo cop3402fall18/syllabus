@@ -339,7 +339,9 @@ Operating systems, processes, files
 - [Unix and Mach](https://www.cs.cornell.edu/courses/cs6410/2014fa/slides/02-classic.pdf)
 - [The Process Concept](slides/process_concept.pdf)
 
-11/21
+11/21 [Smashing the Stack for Fun and Profit](https://insecure.org/stf/smashstack.html)
+
+- Stack smashing Tutorial: [1](https://blog.techorganic.com/2015/04/10/64-bit-linux-stack-smashing-tutorial-part-1/) [2](https://blog.techorganic.com/2015/04/21/64-bit-linux-stack-smashing-tutorial-part-2/) [3](https://blog.techorganic.com/2016/03/18/64-bit-linux-stack-smashing-tutorial-part-3/)
 
 #### Week 15
 
@@ -437,6 +439,9 @@ does not work there, it does not work. You will be given a Eustis
 account at the beginning of the semester, and instructions on how to
 access your account can be found on the Assignments section at the
 course's webpage.
+
+[Tips](https://www.youtube.com/watch?v=sJktShSvp_8) on using Eustis,
+MobaXterm, and VPN for Windows users.
 
 Students may work alone on the programming project or with at most one
 other person for a maximum team size of two.  Teams are created on
