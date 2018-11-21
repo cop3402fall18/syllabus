@@ -1,0 +1,24 @@
+# start (exec)
+find ~/src/linux-4.17.6/ -exec file \{} \;
+
+# redirect out (open/close)
+find ~/src/linux-4.17.6/ -exec file \{} \; > output.txt
+
+# stop (kill)
+ctrl-c
+
+# redirect in (open/close)
+grep "driver" < output.txt
+
+# pipe (fork)
+less output.txt
+cat output.txt | less
+find ~/src/linux-4.17.6/ -exec file \{} \; | grep "driver"
+
+# inspect running processes
+ps
+ps | grep find
+
+# running process memory map
+pmap -x $(pgrep find) | less
+ps aux | grep find

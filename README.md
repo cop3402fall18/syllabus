@@ -338,10 +338,18 @@ Operating systems, processes, files
 - [The Rise of Worse is Better](http://dreamsongs.com/RiseOfWorseIsBetter.html)
 - [Unix and Mach](https://www.cs.cornell.edu/courses/cs6410/2014fa/slides/02-classic.pdf)
 - [The Process Concept](slides/process_concept.pdf)
+- [Kernels 101 – Let’s write a Kernel](https://arjunsreedharan.org/post/82710718100/kernels-101-lets-write-a-kernel)
+- [Unix processes exercise](exercises/6_processes/notes.txt)
 
-11/21 [Smashing the Stack for Fun and Profit](https://insecure.org/stf/smashstack.html)
+11/21 Software security basics
 
+- [Software Security Basic Principles](https://nebelwelt.net/teaching/18-527-SoftSec/slides/03-basic_principles.pdf)
+- [Memory attacks](http://www.cs.columbia.edu/~suman/security_arch/memory_attacks.pdf)
+- [Smashing the Stack for Fun and Profit](https://insecure.org/stf/smashstack.html)
 - Stack smashing Tutorial: [1](https://blog.techorganic.com/2015/04/10/64-bit-linux-stack-smashing-tutorial-part-1/) [2](https://blog.techorganic.com/2015/04/21/64-bit-linux-stack-smashing-tutorial-part-2/) [3](https://blog.techorganic.com/2016/03/18/64-bit-linux-stack-smashing-tutorial-part-3/)
+- [Stack smashing exercise](exercises/7_stack_smashing/)
+- [Practice labs](http://csapp.cs.cmu.edu/3e/labs.html)
+
 
 #### Week 15
 
