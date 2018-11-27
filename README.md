@@ -40,7 +40,7 @@ Wednesday, December 5, 2018 7:00PM-9:50PM
 
 <https://exams.sdes.ucf.edu/2018/fall>
 
-Location is as determined by the University.
+Held in our classroom.
 
 ## Contact Info
 
@@ -95,7 +95,7 @@ _See the repo README.md for detailed instructions._
 
 - __[Assignment 3 Parser](assignments/assignment3_parser.pdf) Due 11/04 (changed from 10/28) 11:59PM__
 
-- __[Assignment 4 Code Generator](assignments/assignment4_codegen.pdf) Compiler Due 12/02 11:59PM__
+- __[Assignment 4 Code Generator](assignments/assignment4_codegen.pdf) Compiler Due 12/07 (changed from 12/02) 11:59PM__
 
 #### Exams
 
@@ -357,7 +357,24 @@ Operating systems, processes, files
 
 11/28 Review for the Final
 
-__Assignment 4 Compiler Due 12/02 11:59PM__
+- 20 questions
+    - 50 points
+    - 10 multiple choice
+    - 10 open-ended
+
+- Contents
+  - Purpose of the phases of the compiler and operating system
+      - lexer, parser, type checker, intermediate code, optimization, machine code generator, assembler, linker, loader
+  - Questions on regular languages and context-free languages similar to the midterm
+  - Writing a recursive descent parser
+  - Running the LR parsing algorithm
+  - Code generation given a source program
+  - Drawing control-flow graphs for source programs
+  - Answering data-flow analysis questions for reaching definitions
+  - Purpose of kernel subsystems: file system, process table, scheduler, virtual memory
+  - Partial orders
+
+__Assignment 4 Compiler Due 12/07 11:59PM__
 
 __Be sure to update your Assignment 2 and Assignment 3 repos (don't push to the Assignment 4 repo)__
 
